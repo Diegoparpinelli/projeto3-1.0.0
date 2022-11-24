@@ -1,0 +1,107 @@
+
+.EventPane{
+    background-color: rgb(212, 217, 217);
+    margin: 24px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.accesBtn{
+    width: 80px;
+    height: 30px;
+    margin: 0px 263px 24px 263px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+input{
+    width: 150px;
+    height: 25px;
+    margin: 62px 14px 62px 62px;
+    padding: 0px;
+    border-radius: 2px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    margin: 62px 14px 62px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.EventBord{
+    display:  flex;
+    background-color: rgb(237, 237, 237);
+    height: 193px;
+    width: auto;
+    border-radius: 5px;
+    margin: 48px 48px 32px 48px;
+}
+
+.EventBord div{
+    display: flex;
+    align-items: center;
+}
+
+.EventBord form div{
+    display: flex;
+    align-items: center;
+}
+
+.NEBtn{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.ListEvents{
+    background-color: #30d499;
+    margin: 32px 48px 48px 48px;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    overflow-y: scroll;
+
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.ListEvents li{
+    width: auto;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.ListEvents p {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.ListEvents li button{
+    width: 67px;
+    height: 72px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.ListEvents img{
+    width: 67px;
+    height: 72px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+a{
+    width: max-content;
+    height: max-content;
+}

@@ -1,0 +1,34 @@
+                    {lista.map(elem=>{
+                        if(elem.tipo === "ticket"){
+                            return <li className="Ticket" >
+                                <p>{elem.nome}</p>
+                                <button>Excluir</button>
+                                <button>Ativar</button>
+                                <button>Scanner</button>
+                            </li>
+                        }else{
+                            return  <li className="Pass">
+                            <p>{elem.nome}</p>
+                            <button>Excluir</button>
+                            <button>Ativar</button>
+                            <button>Scanner</button>
+                            <button>Novo Mini</button>
+                        </li>
+                        }
+                    })}
+
+
+                    <div className="ListEvents" id="ListEvents">
+                        <ul>
+        
+                        </ul>
+                    </div>
+
+
+                    <div classNmae="DashBord">
+                        <form>
+                            <input type="text"></input>
+                            <button>Pesquisar</button>
+                            <button>Novo Evento</button>
+                        </form>
+                    </div>

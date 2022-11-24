@@ -1,0 +1,108 @@
+.FloatMenu{
+    width: 100%;
+    height: 100%;
+    background-color: #dcdddd98;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewEventMenu{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 450px;
+    margin: 48px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.NewEventMenu form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewEventMenu input{
+    
+    width: 150px;
+    height: 25px;
+    margin: 0px 263px 24px 263px;
+    padding: 0px;
+    border-radius: 2px;
+}
+
+.NewEventMenu select{
+    width: 150px;
+    height: 25px;
+    margin: 0px 263px 24px 263px;
+    padding: 0px;
+    border-style: inset;
+    border-radius: 2px;
+    border-color: rgb(118, 118, 118);
+    border-width: 2px;
+}
+
+.NewEventMenu button{
+        width: 80px;
+        height: 30px;
+        margin: 0px 263px 24px 263px;
+        border-radius: 10px;
+        cursor: pointer;
+       
+}
+
+#accesBtn{
+    width: 80px;
+    height: 30px;
+    margin: 0px 263px 24px 263px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.BtnConfig{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: flex-end;
+
+}
+
+#NewEventBtnExit{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+label{
+    width: max-content;
+    height: max-content;
+}
+
+.AccesList{
+    list-style:  none;
+    display: flex;
+}
+
+.AccesList ul li input{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: max-content;
+    height: max-content;
+}
+.AccesList li input{
+    margin: 0px;
+    width: 40px;
+}

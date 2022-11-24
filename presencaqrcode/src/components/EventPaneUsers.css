@@ -1,0 +1,66 @@
+
+.eventPaneUsers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+    height: auto;
+    background-color: aqua;
+}
+
+.userControl{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    background-color: rgb(237, 237, 237);
+}
+
+.userControl select{
+    width: 280px;
+    height: 30px;
+    margin: 24px;
+}
+.userControl button{
+    margin: 24px;
+}
+
+.usersPane{
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    justify-content: space-around;
+
+}
+.usersPane td{
+    width: max-content;
+    border: black solid 5px;
+}
+button{
+    width: max-content;
+}
+.usersPane li{
+    width: auto;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin: 0px;
+}
+.usersPane li p{
+    margin-left: 50px;
+    width: max-content;
+}
+.usersPane ul{
+    background-color: #30d499;
+    margin: 32px 48px 48px 48px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    max-width: 500px;
+    max-height: 575px;
+
+}
+.contentUser{
+    display: flex;
+    flex-direction: column;
+}

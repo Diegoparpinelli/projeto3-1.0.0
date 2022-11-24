@@ -1,0 +1,76 @@
+
+
+.Menu{
+    display: flex;
+    width: 392px;
+}
+
+
+.Menu aside{
+    background-color: #0c0919;
+    width: 392px;
+    height: 100%;
+}
+.Menu nav{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.MenuImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.Menu img{
+    width: 279px;
+    height: 73px;
+}
+
+
+.MenuButton{
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.Menu li{
+    height: 80px;
+    margin-top: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 600 18px Nunito,sans-serif;
+    color: white;
+}
+
+.Menu ul li :hover{
+    color: #bec5c0;
+    cursor: pointer;
+}
+
+
+.Menu p{
+    height: max-content;
+    margin: 0px;
+}
+
+
